@@ -1,0 +1,28 @@
+<ion-content>
+<link rel="stylesheet" href="schoology.component.scss">
+  <div id="schoology">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Iniciar Sesion</ion-card-title>
+        <ion-card-subtitle>Todos los campos son requeridos</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-input label="Correo Electronico o nombre de usuario" label-placement="floating" fill="outline"></ion-input>
+      <br />
+      <ion-input label="Contraseña" type="password" label-placement="floating" fill="outline"></ion-input>
+     <br><br>
+
+      <ion-button >Acceder</ion-button>  
+      <div class="d-grid gap-2 d-md-block">
+        <a [routerLink]="['recupera']" class="small-text">Olvide Contraseña</a>
+      </div> <br><br>
+      <div class="d-grid gap-2 d-md-block">
+        <a [routerLink]="['registro']" class="small-text">Registrate</a>
+      </div>
+      <!--<div class="d-grid gap-2 d-md-block">
+        <a [routerLink]="['datos']" class="small-text">Datos</a>
+      </div>-->
+
+    </ion-card>
+  </div>
+</ion-content>

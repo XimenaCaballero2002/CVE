@@ -1,0 +1,19 @@
+#registro {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+ion-card {
+    --background: W#ffffff;
+    --color:#3880ff;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
