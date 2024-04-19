@@ -1,3 +1,49 @@
-<p>
-  actualiza works!
-</p>
+
+<body>
+  
+    <ion-button class="iconsenjos"fill="clear">Consejos
+      <ion-icon name="alert-circle-outline"></ion-icon>
+    </ion-button>
+  
+  <H6 class = "subtitulo"> Cuentanos acerca de tu historia Laboral </H6>
+<H5 class = "descripcion"> Comienza con el trabajo más reciente y continúa en orden regresivo. </H5>
+
+
+<form class="boton-imagen" action="procesar.php" method="post">
+  <input type="image" src="assets/icon/logo.png" alt="Subir" >
+</form>
+
+<form action="procesar_datos.php" method="post" class="formulario">
+  <div class="form-group">
+    <label for="Puesto / Cargo">Puesto / Cargo</label>
+    <input type="text" id="Puesto / Cargo" name="Puesto" placeholder="Ej. Profesor de Educion Especial" required>
+  </div>
+  <div class="form-group">
+    <label for="Institucion / Empresa">Institución / Empresa</label>
+    <input type="text" id="Institucion / Empresa" name="Institución" placeholder="Ej. Primaria Rosario Castellanos" required>
+  </div>
+  <div class="form-group">
+    <label for="Ciudad / Localidad ">Ciudad /Localidad</label>
+    <input type="text" id="Ciudad / Localidad" name="Ciudad" placeholder="Ej. México" required>
+  </div>
+  <div class="form-group">
+    <label for="Alcaldia / Municipio">Alcaldia / Municipio</label>
+    <input type="text" id="Alcaldia / Municipio" name="Alcaldia / Municipio"  placeholder="Ej. Ecatepec de Morelos" required>
+  </div>
+  
+</form>
+
+
+<ion-checkbox>Empleo Actual</ion-checkbox>
+<ion-button class="continuar"fill="clear"> CONTINUAR </ion-button>
+<div class="fechainicial">
+  <label for="Fecha Inicial ">Fecha Inicial</label>
+  <ion-datetime presentation="date" [preferWheel]="true"></ion-datetime>
+</div>
+<div class="fechafinal">
+  <label for="Fecha final ">Fecha Final</label>
+  <ion-datetime presentation="date" [preferWheel]="true"></ion-datetime>
+</div>
+</body>
+
+

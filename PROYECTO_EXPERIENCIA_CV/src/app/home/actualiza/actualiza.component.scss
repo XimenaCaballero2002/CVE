@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.iconsenjos{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 1300px;
+}
+.iconsenjos ion-button {
+    font-size: 20px; /* Ajusta el tamaño del texto del botón */
+    padding: 15px; /* Ajusta el relleno del botón para hacerlo más grande */
+    margin-left: 50px;
+  }
+  
+  .iconsenjos ion-icon {
+    font-size: 24px; /* Ajusta el tamaño del icono */
+    
+  }
+  
+  .iconsenjos ion-button, .iconsenjos ion-icon {
+    margin-left: 20px; /* Mueve el botón y el icono hacia la izquierda */
+    
+  }
+  .iconsenjos:hover {
+    background-color: #dcdcfa;
+    }
+.subtitulo {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.descripcion {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 50px;
+
+}
+
+  .boton-imagen input[type="image"] {
+    width: 200px; /* Ancho deseado para la imagen */
+    height: auto; /* Altura automática según la relación de aspecto de la imagen */
+    margin-top: 0px;
+    margin-left: 250px;
+  }
+
+  /* Estilos para el formulario */
+.formulario {
+    margin-top: -230px;
+    margin-left: 900px;
+    margin-bottom: 10px; /* Espacio entre cada grupo de etiqueta e input */
+  }
+  
+  .formulario input{
+    font-family: 'Lora', serif;
+    display: block; /* Coloca los labels uno encima del otro */
+    margin-bottom: 10px; /* Espacio entre el label y el input */
+    margin-top: 10px;
+    width: 80%; /* Establece la anchura al 100% del contenedor */
+    padding: 10px; /* Añade espacio alrededor del contenido dentro del input */
+    border: 1px solid #ccc; /* Establece el contorno del input */
+    border-radius: 50px; /* Añade esquinas redondeadas al input */
+    background-color: #f7f7f7; /* Establece el color de relleno del input */
+  }
+  .fechainicial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -130px;
+    margin-left: 50px;
+  }
+  
+  .fechainicial label {
+    font-family: 'Lora', serif;
+    margin-bottom: 0px; /* Ajusta el espacio entre el label y el datetime */
+    margin-top: 0px;
+    margin-left: 140px;
+  }
+  
+  /* Cambiar el color del ion-datetime */
+  ion-datetime {
+    font-family: 'Lora', serif;
+    color: #bbbdfa; /* Cambia este valor al color deseado */
+       
+  }
+
+  .fechafinal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -150px;
+    margin-left: 400px;
+  }
+  
+  .fechafinal label {
+    font-family: 'Lora', serif;
+    margin-bottom: 0px; /* Ajusta el espacio entre el label y el datetime */
+    margin-top: -70px;
+    margin-left: 140px;
+  }
+  
+  /* Cambiar el color del ion-datetime */
+  ion-datetime {
+    font-family: 'Lora', serif;
+    color: #bbbdfa; /* Cambia este valor al color deseado */
+       
+  }
+  
+  ion-checkbox {
+    font-family: 'Lora', serif;
+    size: 50px;
+    margin-top: 20px;
+    margin-left: 900px;
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid #1c004a;
+  }
+
+  .continuar{
+    margin-top: -30px;
+    margin-left: 1200px;
+    font-family: 'Lora', serif;
+}
+.continuar ion-button {
+    
+    font-size: 200px; /* Ajusta el tamaño del texto del botón */
+    padding: 200px; /* Ajusta el relleno del botón para hacerlo más grande */
+  }
