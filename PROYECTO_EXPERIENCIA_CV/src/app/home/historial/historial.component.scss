@@ -1,34 +1,33 @@
 ion-content {
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  h1 {
-    color: black;
-    font-size: 30px;
-    margin-top: 120px;
-  }
-  
-  .experience-card {
-    margin-top: 20px;
-    width: 80%; /* Ancho de la tarjeta */
-    max-width: 800px; /* Ancho máximo de la tarjeta */
-    height: auto; /* Altura automática basada en el contenido */
-    border: 1px solid black; /* Borde de 1 píxel sólido negro */
-  }
-  
-  .card-buttons {
-    margin-top: -20px;
-    margin-left: 630px;
-    font-family: 'Lora', serif;
-  }
-  
-  ion-button.save-button {
-    font-size: 20px; /* Ajusta el tamaño del texto del botón */
-    padding: 30px; /* Ajusta el relleno del botón para hacerlo más grande */
-    margin-bottom: 20px;
-    margin-left: 150px; /* Ajusta el margen izquierdo del botón */
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.experience-card {
+  margin-top: 20px;
+  width: 80%; /* Ancho de la tarjeta */
+  max-width: 800px; /* Ancho máximo de la tarjeta */
+  height: auto; /* Altura automática basada en el contenido */
+  border: 1px solid black; /* Borde de 1 píxel sólido negro */
+}
+
+.card-buttons {
+  margin-top: -20px;
+  margin-left: 630px;
+  font-family: 'Lora', serif;
+}
+
+ion-button.save-button {
+  font-size: 20px; /* Ajusta el tamaño del texto del botón */
+  padding: 30px; /* Ajusta el relleno del botón para hacerlo más grande */
+  margin-bottom: 20px;
+  margin-left: 150px; /* Ajusta el margen izquierdo del botón */
+}
+
