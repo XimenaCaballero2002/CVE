@@ -6,7 +6,7 @@ import { HomePage } from './home.page';
 import { HeadComponent } from './head/head.component';
 import { ActualizaComponent } from './actualiza/actualiza.component';
 import { DescribeComponent } from './describe/describe.component';
-import { HistorialComponent } from './historial/historial.component';
+import { HistorialComponent} from './historial/historial.component';
 import { HomePageRoutingModule } from './home-routing.module';
 
 
