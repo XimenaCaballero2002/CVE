@@ -1,34 +1,14 @@
-<app-head></app-head>
- <header class="header">
-  
-    <div class="izquierda">
-  
-      <div class="tarjeta">
-  
-    <ion-card-header>
-      <ion-card-title>Describe tu historia laboral</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      <ion-textarea
-      placeholder="Escribe tus responsabilidades, logros y detalles del puesto"
-      [clearOnEdit]="true"
-    ></ion-textarea>
-    </ion-card-content>
-  
-    <div class="botones">
-    <ion-button size="default" [routerLink]="'actualiza'">Regresar</ion-button>
-    <ion-button size="default" [routerLink]="'historial'">Continuar</ion-button>
-    </div>
-  
-  </div>
-  
-  </div>
-  
-  <div class="derecha">
-    <div class="combo">
+<body>
+
+<form action="procesar_datos.php" method="post" class="formulario">
+  <H6 class = "subtitulo"> Describe tu historia laboral </H6>
+
+
+  <div class="form-group">
+    <label for="Describe tus responsabilidades">Describe tus responsabilidades, logros y detalles del puesto</label>
+
     <ion-item>
-      <ion-label></ion-label>
+      <ion-label>Selecciona:</ion-label>
       <ion-select placeholder="Tutorias y Asesoramiento Estudiantil">
         <ion-select-option value="opcion1">Desarrollo de planes de estudio</ion-select-option>
         <ion-select-option value="opcion2">Participacion en actividades extracurriculares</ion-select-option>
@@ -41,10 +21,17 @@
         <ion-select-option value="opcion9">Implementacion de estrategias de enseñanza</ion-select-option>
       </ion-select>
     </ion-item>
-  
+
+    <input type="text" id="Describe tus responsabilidades" name="Describe" required>
+
+    
+
   </div>
-  
-  </div>
-  
-  
-  </header>
+
+   <ion-button class="iregresa"fill="clear">Regresar
+  </ion-button>
+  <ion-button class="icontinuar"fill="clear">Continuar
+  </ion-button>
+</form>
+
+</body>
