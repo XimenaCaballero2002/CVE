@@ -1,28 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-.header{
-    color:antiquewhite;
-    text-align: left;
-    font-size: 50px;
-    margin-top: 40px;
-}
-
-.combo{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 1300px;
-}
-
-.izquierda ion-button {
-    font-size: 20px; /* Ajusta el tamaño del texto del botón */
-    padding: 15px; /* Ajusta el relleno del botón para hacerlo más grande */
-    margin-left: 50px;
-    margin-top: 0px;
-}
-
-.tarjeta {
-    margin-top: 100px;
+.iregresa{
+    margin-top: 25px;
     margin-bottom: 10px;
-    margin-left: 0px;
+    margin-left: 100px;
+}
+
+.icontinuar{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+
+.iregresa:hover {
+    background-color: #dcdcfa;
+    }
+
+    .icontinuar:hover {
+        background-color: #dcdcfa;
+        }
+
+        .formulario input{
+            font-family: 'Lora', serif;
+            display: block; /* Coloca los labels uno encima del otro */
+            margin-bottom: 10px; /* Espacio entre el label y el input */
+            width: 41%; /* Establece la anchura al 100% del contenedor */
+            padding: 180px; /* Añade espacio alrededor del contenido dentro del input */
+            border: 3px solid #000000ee; /* Establece el contorno del input */
+            border-radius: 10px; /* Añade esquinas redondeadas al input */
+            background-color: #ffffffb1; /* Establece el color de relleno del input */
+          }
+
+   .formulario input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: #000000;
+   }
+
+   .subtitulo{
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    color: #000000;
+   }
+
+   .formulario {
+    margin-top: -215px;
+    margin-bottom: 10px; /* Espacio entre cada grupo de etiqueta e input */
+  }
+
+  .formulario label{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    color: #000000;
+  }
+
+.formulario{
+    background-color: #fdfdfd;
+}
+
+ion-item{
+    font-family: 'Lora', serif;
+    margin-top: 5px;
+    width: 41%; /* Establece la anchura al 100% del contenedor */
+    margin-left: 840px;
+    background-color: #fdfdfd;
+    margin-bottom: 10px;
 }
 
